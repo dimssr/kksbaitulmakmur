@@ -1,1 +1,1 @@
-# Ini merupakan aplikasi pengelolaan (kas, produk dll) pd badan koperasi syariah
+# Ini merupakan aplikasi pengelolaan (kas, produk dll) padakoperasi syariah
