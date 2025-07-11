@@ -1,0 +1,38 @@
+Buat database dengan nama bmt_db pada http://localhost/phpmyadmin/
+Import database bmt_db.sql yg telah include dalam folder bmt
+*apabila ingin mengubah nama folder bmt, maka harus mengubah settingan base_url yg ada pada file config.php yg ada
+pada C:\xampp\htdocs\bmt\admin\config
+
+Script funtion base_url :
+
+function base_url($url = null){
+	$base_url = "http://localhost/bmt/admin";
+	if($url != null){
+		return $base_url."/".$url;
+	}else{
+		return $base_url;
+	}
+}
+pada bagian $base_url = "http://localhost/bmt/admin"; ubah nama bmt sesuai dengan nama folder yg dibuat
+==============================================================================================================
+1. Akses Halaman Utama : http://localhost/bmt/admin/
+==============================================================================================================
+2. Akses Admin : http://localhost/bmt/admin/
+Level Administrator
+username : adminku@gmail.com
+password : adminku@gmail.com
+Level Petugas
+username : bambang@gmail.com
+password : bambang@gmail.com
+Level Kepala
+username : muklish@gmail.com
+password : muklish@gmail.com
+*Fungsi cetak laporan hanya ada pada level Kepala
+==============================================================================================================
+3. Akses Anggota: http://localhost/bmt/anggota/ ====> atau bisa dengan mengklik menu login yg ada di halaman utama
+Level Anggota :
+username : arif@gmail.com
+password : arif@gmail.com
+Level Nasabah :
+username : budi@gmail.com
+password : budi@gmail.com

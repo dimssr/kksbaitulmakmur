@@ -1,0 +1,50 @@
+/* Tema Header Syariah */
+.syariah-theme {
+    background-color: #2e7d32; /* Hijau gelap untuk kesan elegan */
+    color: #fff; /* Teks putih */
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Bayangan lembut */
+}
+
+.syariah-theme .logo {
+    font-size: 1.8rem; /* Ukuran font lebih besar */
+    font-weight: bold;
+    color: #ffeb3b; /* Kuning emas untuk logo */
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.syariah-theme .logo:hover {
+    color: #fdd835; /* Warna emas lebih terang saat hover */
+}
+
+.syariah-theme .logout {
+    background-color: #f4511e; /* Merah bata untuk tombol logout */
+    color: #fff; /* Teks putih */
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.syariah-theme .logout:hover {
+    background-color: #e64a19; /* Warna merah lebih gelap saat hover */
+}
+
+/* Sidebar toggle styling */
+.syariah-theme .sidebar-toggle-box {
+    cursor: pointer;
+}
+
+.syariah-theme .fa-bars {
+    color: #fff; /* Ikon putih */
+    font-size: 1.5rem;
+}
+/* Tambahkan kode ini di akhir file */
+.syariah-theme {
+    background-color: #2e7d32;
+    color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
